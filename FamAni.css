@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main-width {
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.E-rank {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(Sololev1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.E-rank header .logo h2 a {
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Serif KR", serif;
+}
+
+.E-rank header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+  border-bottom: 2px solid #fff;
+}
+
+nav ul li.active a {
+  border-bottom: 2px solid #fff;
+}
+
+nav ul li.btn a {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #f5dca8;
+  padding: 9px 20px;
+  border-radius: 80px;
+  line-height: 1.4;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 150px;
+}
+
+nav ul li.btn:hover a {
+  border: 1px solid #fff;
+  color: #000;
+  background: #fff;
+  transition: 0.4s;
+}
+
+.content {
+  padding-top: 140px;
+}
+
+.content .main-text {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+
+.content .main-text h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.content .main-text h1 {
+  font-size: 60px;
+  line-height: 1;
+  color: #fff;
+  margin: 0 0 45px;
+  font-family: "Permanent Maker", cursive;
+}
+
+.content .main-text p {
+  max-width: 100%;
+  width: 480px;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: white;
+  background-color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.content .main-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 9px 25px;
+  line-height: 1.4;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.content .main-text a:hover{
+  transform: scale(1.2);
+  border: 1px solid #f5dca8 ;
+  background: transparent;
+  color: #fff;
+  transition: .4s;
+}
